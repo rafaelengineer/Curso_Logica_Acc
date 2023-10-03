@@ -1,0 +1,8 @@
+1. Ler página wikipedia sobre Portugol.
+2. Buscar por conceitos básicos de programação.
+3. Acessar plataforma Portugol-Webstudio.
+4. Pratique escrevendo código em Portugol.
+5. No GitHub busque, leia e analise exemplos de código em Portugol.
+6. Depure seus códigos.
+7. Peça ajuda quando necessário.
+8. Repita passos 3 a 6 regularmente.

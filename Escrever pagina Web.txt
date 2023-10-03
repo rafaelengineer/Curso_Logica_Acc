@@ -1,0 +1,5 @@
+1. Escolha um editor de texto.
+2. Crie um novo arquivo.
+3. Escreva o código HTML básico.
+4. Salve e visualize sua página em um navegador.
+5. Repita passos 3 e 4 até finalizar a construção da sua página.

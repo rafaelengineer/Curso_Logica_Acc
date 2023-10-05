@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-05T11:33:48.758Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="l_12o2_UaMAtRSn6U1il" version="22.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-05T11:34:24.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="DSnRXmPGFliB0jgH4ZqQ" version="22.0.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="792" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="120" y="20" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f4Y0gO_Kiw8ghcvXuQjV-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="85" y="630" width="100" height="60" as="geometry" />
+          <mxGeometry x="102.5" y="630" width="65" height="40" as="geometry" />
         </mxCell>
         <mxCell id="f4Y0gO_Kiw8ghcvXuQjV-2" value="escreva Var" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="85" y="430" width="100" height="60" as="geometry" />

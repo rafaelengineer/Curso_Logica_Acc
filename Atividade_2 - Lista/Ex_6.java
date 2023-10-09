@@ -15,6 +15,7 @@ public class Ex_6 {
         valorHora = scanner.nextDouble();
         System.out.print("Digite o numero de horas trabalhadas: ");
         hrTrabalho = scanner.nextInt();
+        scanner.close();
 
         // Cálculo do salário
         if (hrTrabalho > semanas * hrSem) {

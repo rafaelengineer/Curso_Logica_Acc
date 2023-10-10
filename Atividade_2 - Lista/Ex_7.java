@@ -1,8 +1,6 @@
 public class Ex_7 {
 
     public static void main(String[] args) {
-
-        // Declaração das variáveis
         int qtdMax = 0;
         int qtdMin = 0;
         int qtdEstoque = 0;

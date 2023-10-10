@@ -3,29 +3,31 @@ import java.util.Scanner;
 public class Ex_6 {
     public static void main(String[] args) {
         // Declaração das variáveis
-        double valorHora = 0;
-        int hrTrabalho = 0;
-        double salario = 0;
-        final int semanas = 4;
-        final int hrSem = 40;
-
-        // Entrada de dados
-        System.out.print("Digite o valor hora em reais: R$");
-        Scanner scanner = new Scanner(System.in);
-        valorHora = scanner.nextDouble();
-        System.out.print("Digite o numero de horas trabalhadas: ");
-        hrTrabalho = scanner.nextInt();
-        scanner.close();
-
-        // Cálculo do salário
-        if (hrTrabalho > semanas * hrSem) {
-            salario = (1.3 * hrTrabalho - 0.3 * semanas * hrSem) * valorHora;
-        } else {
-            salario = hrTrabalho * valorHora;
-        }
+        int qtdMax = 0;
+        int qtdMin = 0;
+        int qtdEstoque = 0;
 
         // Saída de dados
-        System.out.println("O valor a receber é: R$" + String.format("%.2f", salario));
+        System.out.println("Opa");
 
+        // Entrada de dados
+        System.out.print("Digite a quantidade em Estoque: ");
+        Scanner scanner = new Scanner(System.in);
+        qtdEstoque = scanner.nextInt();
+        System.out.print("Digite a quantidade Máxima: ");
+        qtdMax = scanner.nextInt();
+        System.out.print("Digite a quantidade Mínima: ");
+        qtdMin = scanner.nextInt();
+        scanner.close();
+
+        // Cálculo da quantidade média
+        int qtdMedia = (qtdMax + qtdMin) / 2;
+
+        // Impressão do resultado
+        if (qtdEstoque > qtdMedia) {
+            System.out.println("Não efetuar compra.");
+        } else {
+            System.out.println("Efetuar compra.");
+        }
     }
 }

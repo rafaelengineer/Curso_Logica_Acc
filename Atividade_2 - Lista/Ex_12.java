@@ -33,7 +33,8 @@ public class Ex_12 {
             System.out.print("Inserir mais dados? (ou sair): ");
             controle = scanner.next();
         }
-
+        scanner.close();
+        
         mdSalarios /= contadorPop;
         mdNumFilhos /= contadorPop;
         percSalarioAte_150 = (percSalarioAte_150 / contadorPop) * 100;

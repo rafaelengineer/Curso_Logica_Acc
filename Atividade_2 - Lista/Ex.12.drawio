@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2023-10-06T11:30:24.422Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="9OJ9x6oORRqtm_QfAFz3" version="22.0.2" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="659" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="f4Y0gO_Kiw8ghcvXuQjV-2" value="escreva &quot;Entre com Salario:&quot;" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="210" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f4Y0gO_Kiw8ghcvXuQjV-4" value="leia salario" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="160" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f4Y0gO_Kiw8ghcvXuQjV-6" value="escreva &quot;Entre com Numero de Filhos:&quot;" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="210" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f4Y0gO_Kiw8ghcvXuQjV-7" value="leia numFilhos" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="320" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f4Y0gO_Kiw8ghcvXuQjV-9" value="mdSalarios += salario" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="400" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f4Y0gO_Kiw8ghcvXuQjV-10" value="mdNumFilhos += numFilhos" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="440" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f4Y0gO_Kiw8ghcvXuQjV-11" value="se(maiorSalario &lt; salario) { maiorSalario = salario }" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="480" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f4Y0gO_Kiw8ghcvXuQjV-12" value="se(salario &lt; 150) { percSalarioAte_150++ }" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="520" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f4Y0gO_Kiw8ghcvXuQjV-13" value="escreva &quot;Inserir mais dados? (ou sair)&quot;" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="560" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f4Y0gO_Kiw8ghcvXuQjV-15" value="leia controle" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="640" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f4Y0gO_Kiw8ghcvXuQjV-16" value="}" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=0;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="680" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f4Y0gO_Kiw8ghcvXuQjV-18" value="mdSalarios = mdSalarios/contadorPop" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="760" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f4Y0gO_Kiw8ghcvXuQjV-19" value="mdNumFilhos = mdNumFilhos/contadorPop" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="800" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f4Y0gO_Kiw8ghcvXuQjV-20" value="percSalarioAte_150 = 100*percSalarioAte_150/contadorPop" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="840" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f4Y0gO_Kiw8ghcvXuQjV-21" value="escreva &quot;\nA média salarial dessa população é: &quot;,mdSalarios" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="880" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f4Y0gO_Kiw8ghcvXuQjV-22" value="escreva &quot;\nA média de filhos nesta população é: &quot;,mdNumFilhos" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="920" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f4Y0gO_Kiw8ghcvXuQjV-23" value="escreva &quot;\nO percentual dessa população que recebe menos de R$150,00: &quot;,percSalarioAte_150, &quot;%.&quot;" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="960" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f4Y0gO_Kiw8ghcvXuQjV-24" value="escreva &quot;\nO maior salário dentre essa população é: &quot;,maiorSalario" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="1000" width="280" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

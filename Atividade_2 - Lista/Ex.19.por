@@ -20,7 +20,7 @@ programa {
 
     real soma = calculateSum(numeros)
 
-    escreva("\noma dos valores ordenados sem o 8o. eh: ", soma)
+    escreva("\nSoma dos dois maiores valores eh: ", soma)
   }
 
   funcao bubbleSort(real vetor[]) {

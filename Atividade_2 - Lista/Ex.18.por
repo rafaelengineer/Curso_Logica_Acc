@@ -5,40 +5,33 @@ programa {
 
     escreva("Insira 10 valores numericos:")
 
-    // Leitura dos valores
     para (inteiro i = 0; i < 10; i++) {
       escreva("Insira o valor #", i + 1, ": ")
       leia(numeros[i])
     }
 
-    // Ordenação usando bubble sort
     bubbleSort(numeros)
 
-    // Impressão dos valores ordenados
     escreva("Imprime valores ordenados:")
-    para cada numero em numeros {
-      escreva(numero, " ")
+    para (i = 0; i < 10; i++) {
+      escreva("\nO valor na posicao#", i + 1, " eh: ", numeros[i])
     }
     escreva()
 
-    // Cálculo da soma dos valores ordenados sem o 8o. elemento
     real soma = calculateSum(numeros)
 
-    // Impressão da soma
-    escreva("Soma dos valores ordenados sem o 8o. eh: ", soma)
+    escreva("\noma dos valores ordenados sem o 8o. eh: ", soma)
   }
 
-  // Implementação do bubble sort
-  funcao bubbleSort(vetor) {
-    inteiro n = comprimento(vetor)
-    booleano swapped
+  funcao bubbleSort(real vetor[]) {
+    inteiro n = 10
+    logico swapped
 
     faca {
       swapped = falso
 
       para (inteiro i = 1; i < n; i++) {
         se (vetor[i - 1] > vetor[i]) {
-          // Troca vetor[i-1] e vetor[i]
           real temp = vetor[i - 1]
           vetor[i - 1] = vetor[i]
           vetor[i] = temp
@@ -48,15 +41,14 @@ programa {
     } enquanto (swapped)
   }
 
-  // Implementação do cálculo da soma
-  funcao calculateSum(vetor) {
+  funcao calculateSum(inteiro vetor[]) {
     real soma = 0
 
-    // Itera sobre os valores, pulando o 8o. elemento
-    para (inteiro i = 0; i < comprimento(vetor); i++) {
-      se (i == 7) continuar // Pula o 8o. elemento
+    para (inteiro i = 0; i < 10; i++) {
+      se (i != 7) { // Pula o 8o. elemento
       soma += vetor[i]
+      }
     }
-    retorna soma
+    retorne soma
   }
 }

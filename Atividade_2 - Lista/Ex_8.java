@@ -36,7 +36,7 @@ public class Ex_8 {
                 System.out.println("\nPedido: " + nome_103 + "........ preco: " + preco_103);
                 break;
             case 104:
-                System.out.println("\nPedido: " + nome_105 + "........ preco: " + preco_104);
+                System.out.println("\nPedido: " + nome_104 + "........ preco: " + preco_104);
                 break;
             case 105:
                 System.out.println("\nPedido: " + nome_105 + "........ preco: " + preco_105);

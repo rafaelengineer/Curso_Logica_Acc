@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" modified="2023-10-18T18:41:32.885Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="f0lZsr6dY3XnfWUIhC0z" version="22.0.4" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="802" dy="1856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="uvkjri6FY9MWjZu6di9B-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="120" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uvkjri6FY9MWjZu6di9B-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="267.5" y="670" width="65" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uvkjri6FY9MWjZu6di9B-9" value="para idx = 0; idx = 3; idx++" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="320" y="80" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uvkjri6FY9MWjZu6di9B-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uvkjri6FY9MWjZu6di9B-11" target="uvkjri6FY9MWjZu6di9B-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvkjri6FY9MWjZu6di9B-11" value="string avalicao = &quot;&quot;;real nota1 = 0;real nota2 = 0;real nota3 = 0;real ME = 0;real MA = 0;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="75" y="80" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uvkjri6FY9MWjZu6di9B-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uvkjri6FY9MWjZu6di9B-12" target="uvkjri6FY9MWjZu6di9B-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvkjri6FY9MWjZu6di9B-12" value="System.out.print(&quot;Qual avaliação será lançada: &quot;);avalicao = scanner.nextLine();" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="950" y="-280" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uvkjri6FY9MWjZu6di9B-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uvkjri6FY9MWjZu6di9B-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="170" />
+              <mxPoint x="320" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uvkjri6FY9MWjZu6di9B-18" value="switch (avalicao.toLowerCase())" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="260" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uvkjri6FY9MWjZu6di9B-23" value="case &quot;1&quot;,&quot;conta1&quot;,&quot;c1&quot;:System.out.println(&quot;Escreva a nota1: &quot;); nota1 = scanner.nextFloat(); break; case &quot;2&quot;,&quot;conta2&quot;,&quot;c2&quot;: System.out.println(&quot;Escreva a nota2: &quot;); nota2 = scanner.nextFloat(); break; case &quot;3&quot;,&quot;conta3&quot;,&quot;c3&quot;: System.out.println(&quot;Escreva a nota3: &quot;); nota3 = scanner.nextFloat(); break; default: System.out.println(&quot;Escreva a nota dos exercicios: &quot;); ME = scanner.nextFloat(); break;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="100" y="370" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uvkjri6FY9MWjZu6di9B-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvkjri6FY9MWjZu6di9B-24" value="nota1 + nota2 * 2 + nota3 * 3 + ME" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="560" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uvkjri6FY9MWjZu6di9B-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="uvkjri6FY9MWjZu6di9B-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvkjri6FY9MWjZu6di9B-33" value="if(MA&gt;=9)\n    System.out.println(&quot;A&quot;);\nelse if(MA&gt;=8)\n    System.out.println(&quot;B&quot;);\nelse if(MA&gt;=7)\n    System.out.println(&quot;C&quot;);\nelse if(MA&gt;=6)\n    System.out.println(&quot;D&quot;);\nelse if(MA&gt;=4)\n    System.out.println(&quot;E&quot;);\nelse\n    System.out.println(&quot;F&quot;);" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="100" y="700" width="230" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

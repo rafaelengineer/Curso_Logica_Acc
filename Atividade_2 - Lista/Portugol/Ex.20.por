@@ -6,18 +6,18 @@ programa {
         inteiro vec_r [20]
 
 
-        para (i = 0; i <= 4;i++){
+        para (i = 0; i <= 9;i++){
             j <- i + 1
             escreva("Insira o ", j, "o. numero do vetor X: ")
             leia(num)
-            gabarito[i] <- num
+            vec_x[i] <- num
           }
 
         para (i = 0; i <= 9;i++){
             j <- i + 1
             escreva("Insira o ", j, "o. numero do vetor Y: ")
             leia(num)
-            apostas[i] <- num
+            vec_y[i] <- num
           }
 
         para (i = 0; i <= 20;i++){

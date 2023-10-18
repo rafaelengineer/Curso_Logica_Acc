@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" modified="2023-10-06T11:30:24.422Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="9OJ9x6oORRqtm_QfAFz3" version="22.0.2" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="659" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-1" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="160" y="100" width="720" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" connectable="0" parent="1" source="8BuXdJTNJvSlTrtp59oV-2" target="8BuXdJTNJvSlTrtp59oV-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-2" value="idx = 0" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="60" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-3" value="idx &lt; 10" style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="140" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-4" value="Digite mais um nome:" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="260" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-5" value="leia(nome)" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="260" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-6" value="nomes[idx] = nome" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="260" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-8" value="" style="shape=arrow;whiteSpace=wrap;html=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="340" y="400" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-10" value="Digite um nome para ser procurado:" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="480" y="260" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-11" value="leia(nome)" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="480" y="340" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-12" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="360" y="520" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-13" value="idx = 0" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=0;" vertex="1" connectable="0" parent="8BuXdJTNJvSlTrtp59oV-12">
+          <mxGeometry x="80" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-14" value="idx &lt; 10" style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;" vertex="1" connectable="0" parent="8BuXdJTNJvSlTrtp59oV-12">
+          <mxGeometry x="240" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-15" value="nomes[idx] == nome" style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;" vertex="1" connectable="0" parent="8BuXdJTNJvSlTrtp59oV-12">
+          <mxGeometry x="400" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-16" value="Achei!!! Está na posição: idx+1" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=0;" vertex="1" connectable="0" parent="8BuXdJTNJvSlTrtp59oV-12">
+          <mxGeometry x="560" y="540" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-17" style="group" vertex="1" connectable="0" parent="8BuXdJTNJvSlTrtp59oV-12">
+          <mxGeometry x="440" y="620" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-18" value="Não encontrado, nome" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=0;" vertex="1" connectable="0" parent="8BuXdJTNJvSlTrtp59oV-12">
+          <mxGeometry x="440" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-19" value="idx++" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=0;" vertex="1" connectable="0" parent="8BuXdJTNJvSlTrtp59oV-12">
+          <mxGeometry x="320" y="620" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" connectable="0" parent="8BuXdJTNJvSlTrtp59oV-12" source="8BuXdJTNJvSlTrtp59oV-2" target="8BuXdJTNJvSlTrtp59oV-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-19" value="" style="shape=arrow;whiteSpace=wrap;html=1;" vertex="1" connectable="0" parent="8BuXdJTNJvSlTrtp59oV-12">
+          <mxGeometry x="400" y="600" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" connectable="0" parent="8BuXdJTNJvSlTrtp59oV-12" source="8BuXdJTNJvSlTrtp59oV-15" target="8BuXdJTNJvSlTrtp59oV-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8BuXdJTNJvSlTrtp59oV-16" value="" style="shape=arrow;whiteSpace=wrap;html=1;" vertex="1" connectable="0" parent="8BuXdJTNJvSlTrtp59oV-12">
+          <mxGeometry x="520" y="600" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
+

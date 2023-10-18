@@ -1,0 +1,13 @@
+1. Verifique o tamanho: Um CPF válido deve ter 11 dígitos.
+
+2. Calcule o primeiro dígito verificador:
+   2.1 - Multiplique os 9 primeiros dígitos pela sequência decrescente de números de 10 a 2 e some os resultados.
+   2.2 - Calcule o resto da divisão dessa soma por 11.
+   2.3 - Se o resto for menor que 2, o primeiro dígito verificador é 0, senão é 11 menos o resto.
+
+3. Calcule o segundo dígito verificador:
+   3.1 - Multiplique os 10 primeiros dígitos pela sequência decrescente de números de 11 a 2 e some os resultados.
+   3.2 - Calcule o resto da divisão dessa soma por 11.
+   3.3 - Se o resto for menor que 2, o segundo dígito verificador é 0, senão é 11 menos o resto.
+
+4. Compare os dígitos verificadores: Os dois últimos dígitos do CPF devem corresponder aos dígitos verificadores calculados.

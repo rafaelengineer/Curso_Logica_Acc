@@ -1,0 +1,76 @@
+Lista de exercícios:
+
+Accenture - Lógica de Programação - 2
+
+Utilizar array em todos os exercicios.
+
+11)	Ler 10 valores e escrever quantos desses valores lidos estão entre 10 e 20 
+(inlcuindo os valores 10 e 20 no intervalo) e quantos deles estão fora deste intervalo.
+
+
+12)	Uma cidade deseja fazer uma pesquisa entre seus habitantes. 
+Faça um algoritmos para coletar dados sobre o salário e número de filhos de cada habitante e após as leituras, escrever: 
+a) Média de salário da população 
+b) Média do número de filhos 
+c) Maior salário dos habitantes 
+d) Percentual de pessoas com salário menor que R$ 150,00.
+
+
+13)	Escreva um algoritmo que permita a leitura dos nomes de 10 pessoas. 
+Após isto, o algoritmo deve permitir a leitura de mais 1 nome, localize este nome, escreva: 
+ACHEI se o nome estiver entre os 10 nomes lidos anteriormente, ou NÃO ACHEI caso contrário.
+
+
+14)	Ler um vetor R de 5 elementos contendo o gabarito da LOTO. A seguir ler um vetor A de 10
+elementos contendo uma aposta. A seguir imprima quantos pontos fez o apostador.
+[Entrada]
+4 12 34 25 17 (gabarito)
+3 17 55 21 34 4 27 29 20 11 (aposta)
+[Saída]
+3 (pontos)
+
+
+15)	Faça um algoritmo para ler duas sequencias de 5 números cada. 
+Escrever a quantidade de vezes que um número da sequência UM está presente na sequência DOIS. 
+
+
+16)	Faça um algoritmo para ler uma sequência de 50 números, verificar e escrever se existem números repetidos 
+na sequência e em que posições se encontram.
+
+
+17)	Escreva um algoritmo que permita a leitura de 10 números. 
+Após isto, o algoritmo deve permitir a leitura de mais 1 número, localize este número, 
+escreva ACHEI se o ele estiver entre os 10 números lidos anteriormente, ou NÃO ACHEI caso contrário.
+
+
+18)	Ler dez valores (considere que não serão lidos valores iguais) e escrevê-los em ordem crescente 
+ao final imprima a soma de todos os números lidos e subtraindo o 8º. Valor lido.
+
+
+19)	Ler 9 valores (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores.
+
+
+20)	Ler 2 vetores X e Y de 10 elementos cada um (ocupando as posições de 0 a 9 em cada vetor).
+Intercalar os elementos desses 2 vetores formando assim, um novo vetor R de 20 elementos, onde nas
+posições pares de R (0,2,4,...,8) estejam os elementos de X e nas posições ímpares (1,3,...,9) os elementos
+de Y. Após a geração completa do vetor R, escreva-o.
+[Entrada]
+11 5 10 8 23 12 91 21 7 9 (vetor X)
+22 34 33 53 52 41 13 14 27 81 (vetor Y)
+[Saída]
+11 22 5 34 10 33 8 53 23 52 12 41 91 13 21 14 7 27 9 81 (vetor R)
+
+
+21)	Escrever um algoritmo que lê o número de identificação, as 3 notas obtidas por um aluno nas 3 verificações e a média dos exercícios que fazem parte da avaliação. 
+Calcular a média de aproveitamento, usando a fórmula:
+MA = (Nota1 + Nota2 x 2 + Nota3 x 3 + ME )/7
+A atribuição de conceitos obedece a tabela abaixo:
+Média de Aproveitamento	Conceito
+9,0	A
+7,5 e < 9,0	B
+6,0 e < 7,5	C
+4,0 e < 6,0	D
+< 4,0	E
+O algoritmo deve escrever o número do aluno, suas notas, a média dos exercícios, a média de aproveitamento,
+ o conceito correspondente e a mensagem: APROVADO se o conceito for A,B ou C e REPROVADO se o conceito for D ou E
+

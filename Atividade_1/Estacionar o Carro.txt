@@ -1,0 +1,8 @@
+1. Encontre um espaço de estacionamento adequado.
+2. Posicione o carro.
+3. Verifique os espelhos e olhe por cima do ombro.
+4. Comece a manobra.
+5. Alinhe o carro.
+6. Pare o carro.
+7. Coloque o carro em 'estacionar' (P).
+8. Desligue o motor e saia do carro.

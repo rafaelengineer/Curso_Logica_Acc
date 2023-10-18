@@ -20,7 +20,7 @@ public class Ex_3 {
         }
         scanner.close();
 
-        System.out.println("A maior nota é: " + maior);
-        System.out.println("A menor nota é: " + menor);
+        System.out.println("A maior nota ï¿½: " + maior);
+        System.out.println("A menor nota ï¿½: " + menor);
     }
 }
